@@ -10,6 +10,17 @@
   version = "0.6.2"
 
 [[projects]]
+  branch = "master"
+  digest = "1:bf036df47da92e70ec7bee87a06197f9b8ff6c2bd0b251856bf7dd1ff95a3638"
+  name = "github.com/greymd/ojichat"
+  packages = [
+    "generator",
+    "pattern",
+  ]
+  pruneopts = "UT"
+  revision = "e99e2fc06b3af2567388c1be53cd15b1c9deccaa"
+
+[[projects]]
   digest = "1:77e76597daf43acf8b985acb8d3b67cbe39cc63b85bf4db88ac3dadd0a8aabc8"
   name = "github.com/ikawaha/kagome"
   packages = [
@@ -60,6 +71,8 @@
   analyzer-version = 1
   input-imports = [
     "github.com/docopt/docopt-go",
+    "github.com/greymd/ojichat/generator",
+    "github.com/greymd/ojichat/pattern",
     "github.com/ikawaha/kagome/tokenizer",
     "github.com/mattn/go-gimei",
     "github.com/miiton/kanaconv",
